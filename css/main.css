@@ -84,6 +84,11 @@ h4{
 .main img:hover {
 	border: 5px solid black;
 }
+ #risk{
+	width: 75%;
+	display: block;
+	margin: auto;
+}
 
 /* Footer */
 .footer {
