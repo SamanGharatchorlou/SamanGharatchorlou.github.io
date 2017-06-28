@@ -68,6 +68,10 @@ button {
 }
 
 /* Main */
+h4{
+	text-align: centre;
+}
+
 .row {
 	display: inline;
 }
