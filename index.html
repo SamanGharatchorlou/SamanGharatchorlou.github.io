@@ -5,99 +5,156 @@
  	<link rel="stylesheet" type="text/css" href="/css/main.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src='actions.js'></script>
-  	<title>First Website!</title>
+  	<title>Saman Gharatchorlou</title>
   </head>
-  <body>
+    <body>
+   
+	<div class='header'>
+	  <h1>Free To Play Games</h1>
+	  <h2><i>Saman Gharatchorlou</i></h2>
+	</div>
 
-  	<div class='navBar'>
-  		<div class='col-md-8'>
-  			<h3>Saman Gharatchorlou</h3>
-  		</div>
-  	</div>
-	 
-  	<div class='header'>
-  		<div class='title'>
-  			<h1>Free to Play Games</h1>
-  		</div>
-  	</div>
+	<div class='main'>
 
-  	<div class='main'>
-  		<div class='row'>
-  			<div class='col-md-4'>
-				<h4>Tower Defence</h4>
-  				<a href ="TD.html"><img src='https://lh6.ggpht.com/Rv1rLz4JBWFKGC-vk7MYRycs3C1-DG_kt5BatQ6mCixmMaYOuxu1iKNcmauhx35oJg=w300'></a>
-  			</div>
-  			<div class='col-md-4'>
-				<h4>RISK-------------</h4>
-  				<a href="RISK.html"><img src='http://i68.tinypic.com/20gmyoj.png'></a>
+
+	<div class='about'>
+	  <div id = 'aboutText'>
+	  <h4>About</h4>
+	  <p>I make games in my free time using the Unity gaming engine. Everything on this website I have built myself (including the website). All of the games are totally free to play and you can find the source codes in the'Source Code' tab. Feel free to copy and use any of it.</p>
+	  <p>All the games are in the alpha stage as I'm still working on them, updating them as time goes on. There may be some bugs, if you find one please let me know by going to the 'Report Bug' tab, you'll know a bug if the game breaks...hopefully you wont find any of those slimy critters. There's also a 'Feedback" tab. These games haven't been tried and tested by many other people so any feedback you have on the games is welcomed. If you click on the 'More about this game' link sometimes I cover problems I faced and/or improvement recommendations and I'd love to hear from you.</p>
+	  <p>Anyway enough chat, go checkout my games!</p>
+	  </div>
+	</div>
+
+
+<!-- RISK -->
+	  <div class="rowContainer">
+	  <div class="row">        
+		<div class='col-md-3'>
+		  <a href='RISK.html'><img src='http://i49.servimg.com/u/f49/15/39/99/49/moon_v10.png' alt='RISK'></a>
+		</div>
+		<div class='col-md-9'>
+
+			<div class="tabs">
+			  <div class="tab-2">
+				<label for="tab2-1">RISK</label>
+				<input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+				<div>
+					<h4>Aim</h4>
+				  	<p>Stop the creeps from reaching your base! Creeps will follow the path around the map making their way to your base, where they are trying to steal your stuff, sneaky creeps. Build towers on the tiles to shoot them down before they reach the end. Warning its quite hard, so be prepared.</p>
+				</div>
+			  </div>
+			  <div class="tab-2">
+				<label for="tab2-2"><i>More Detail</i></label>
+				<input id="tab2-2" name="tabs-two" type="radio">
+				<div>
+					<b>Developing This Game</b>
+				  	<p>This was my first big project, it was a challenge not just building the core game itself but also creating computer players (refered to AI, even though its not really AI). For the AI I had to build a fairly complex string of recursive functions (a function that calls itself), which was quite a challenge, particularly for the attack phase. The AI works on a set of basic rules that it follows giving the impression it knows (well sort of) what its doing.</p>
+				  	<b>Further Developments</b>
+				  	<p>I 'completed' this game about a month before I actually completed it becuase I was constantly adding little features here and there. There's a tonne of stuff I still want to add but dont have time to at the moment, a few of them below:</p>
+				  	<ul>
+				  		<li>Graphics</br>
+				  		The game currently consists of boxes fighting eachother, which is kind of dull. I want to add actual soldiers with fighting, killing and dying animations to give the game more life.</li>
+				  		<li>Improved Computer Player</br>
+				  		As mentioned the current AI works on a few basic rules. I'm hoping to make the AI a little more situational so it can make some more complex decisions being more unpredictable.</li>
+				  		<li>Prediction Algorithm</br>
+				  		To do the above I need to build a prediction algorithm to calculate win/loss probabilities of certain battle situations and I'd like to add something into the game giving the player the abillity to calculate the chance of winning a fight, maybe once a turn or trade a soldier for 10 uses etc. I figured out equations to calculate 1v1, 1v2, 2v1 and 2v2 battles already. I havent been able to calculate the probability for 3v2 battle yet, I know what probabilities are but not the equation (not that you need it once you have the probabilities). If you know how to do it, let me know.</li>
+				  		<li>Dice Roll</br>
+				  		Ross wants to see what he has rolled so I'll add some dice animations.</li>
+				  	</ul>
+				  	<p>There are more things like a death lazer, but i'll stop here before I get too carried away.</p>
+				</div>
+			  </div>
 			</div>
-  			<div class='col-md-4'>
-				<h4>1st Person Shooter</h4>
-  				<a href='#'><img src='https://zillya.com/sites/default/files/under-construction.png'></a>
-  			</div>
-  		</div>
-  	</div>
-	  
-	  <!-- FORM -->
+		  
+		</div>
+	  </div>
+	  </div>
 
-<form name="contactform" method="post" action="send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- </td>
-</tr>
-</table>
-</form>
 
-  	<div class='footer'>
-  		<div class='col-md-2'>
-  			<ul>
-  				
-				<li><a href='#'>These links dont work ... just saying</a></li>
-  			</ul>
-  		</div>
-  	</div>
+<!-- TOWER DEFENCE -->
+	  <div class="rowContainer">
+	  <div class='row'>
+		<div class='col-md-9'>
+			<div class="tabs">
+
+			  <div class="tab-2">
+				<label for="tab22-1">Tower Defence</label>
+				<input id="tab22-1" name="tab2s-two" type="radio" checked="checked">
+				<div>
+					<b>Aim</b>
+				 	<p>Stop the creeps from reaching your base! Creeps will follow the path around the map making their way to your base, where they are trying to steal your stuff, sneaky creeps. Build towers on the tiles to shoot them down before they reach the end. Warning its quite hard, so be prepared.</p>
+				 	<i>NOTE: I haven't touched this game for a while so it's a little basic at the moment, but I'll be making changes very soon!</i>
+				</div>
+			  </div>
+
+			  <div class="tab-2">
+				<label for="tab22-2"><i>More Detail</i></label>
+				<input id="tab22-2" name="tab2s-two" type="radio">
+				<div>
+					<b>Developing This Game</b>
+				  	<p>This was one of the first games I ever made, definately a learning project and a realtively simple and basic game.</p>
+				  	<b>Further Developments</b>
+					<ul>
+						<li>Target Lock</br>
+						Currently the towers shoot at their cloest target, this obviously changes radiply as the creeps move across the map causing the towers to flicker across targets rapidly. I will change this so that the towers target the creep cloest to the players base within their range, a more convential (and better) way to do it I think.</li>
+				  		<li>Tower Types</br>
+				  		Currently there are 6 waves and 2 tower types each with an upgrade option, 2 enemey types and a boss. I'd like to expand the tower types, including: a short range, rapid fire tower; a slow fire, splash damge tower and a low damage, slowing tower. Expanding the upgrade options so you have multiple options each having various benefits would be an even further development. </li>
+				  		<li>Enemy Types</br>
+				  		I'll also look to expand the enemy rooster but that'll come last I think, I'll probably just tweak the ones I have to keep the game balanced.</li>
+				  		<li>More Waves!</br>
+				  		Before I add more tower and enemy types I think we want more enemy waves to get the game going a bit more.</li>
+				  	</ul>
+				</div>
+			  </div>
+
+			</div>		
+		</div>
+
+		<div class='col-md-3'>
+		  <a href ="TD.html"><img src='https://lh6.ggpht.com/Rv1rLz4JBWFKGC-vk7MYRycs3C1-DG_kt5BatQ6mCixmMaYOuxu1iKNcmauhx35oJg=w300' alt='TOWER DEFENCE'></a>
+		</div>
+	  </div>
+	  </div>
+
+
+<!-- 1st PERSON SHOOTER -->
+	  <div class="rowContainer">
+	  <div class="row">        
+		<div class='col-md-3'>
+		  <a href='#'><img src='http://reneetmusic.com/wp-content/uploads/2014/05/working.jpg' alt='First Person Shooter'></a>
+		</div>
+		<div class='col-md-9'>
+			<div class="tabs">
+			  <div class="tab-2">
+				<label for="tab32-1">1st Person Shooter</label>
+				<input id="tab32-1" name="tab3s-two" type="radio" checked="checked">
+				<div>
+				  <p>Currently in development.</p>
+				</div>
+			  </div>
+			  <div class="tab-2">
+				<label for="tab32-2"><i>More Detail</i></label>
+				<input id="tab32-2" name="tab3s-two" type="radio">
+				<div>
+				  <p>I started making a 1st person shooter a while ago and dropped it for some reason. Right now its playable but as basic as a game gets. I'm going develop this game further before I put it on my site.</br>
+				  I want to make a fun, easy(ish) to play, fast paced game. If you have any good ideas drop me a message. I dont have any feedback forms yet (in development) so drop me an email at: samangharat@gmail.com, I'd genuinely like to hear your ideas. Thanks!</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+	  </div>
+	  </div>
+
+
+
+
+	<div class='footer'>
+		<ul>
+			<li>Saman Gharatchorlou</li>
+		  	<li>Email: samangharat@gmail.com</li>
+		</ul>
+	</div>
 
   </body>
 </html>
