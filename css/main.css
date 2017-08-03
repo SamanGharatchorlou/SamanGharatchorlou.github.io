@@ -60,7 +60,11 @@ h1,h2 {
 	display: block;
 	height: 300px;
 	margin: auto;
-  vertical-align: middle;
+  	vertical-align: middle;
+}
+
+#RISKimg {
+	height: 370px;	
 }
 
 .main img:hover {
