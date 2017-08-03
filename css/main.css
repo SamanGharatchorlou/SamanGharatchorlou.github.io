@@ -1,5 +1,17 @@
 /* Saman Gharatchorlou */
 
+/* Fonts */
+h1,h2 {
+	font-family: 'Montserrat','PT Sans Narrow', 'Verdana';
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
 h3{
 	font-family: 'Lobster';
 	font-style: italic;
@@ -17,17 +29,6 @@ h3{
 	background: url('https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=db130336e8134fc3f734dbc4318f5c5e');
 	background-size: 100% auto;
 	background-position: 50% 40%;
-	margin: 0px;
-	padding: 0px;
-}
-
-h1,h2 {
-	font-family: 'Montserrat','PT Sans Narrow', 'Verdana';
-	color: white;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 200px;
-	height: 50px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -70,11 +71,6 @@ h1,h2 {
 .main img:hover {
 	border: 1px solid black;
 }
-
-.main .col-md-8 p{
-	padding: 10px 20px 0px 20px;
-}
-
 
 
 /* TAB STYLES */
