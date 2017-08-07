@@ -2,74 +2,64 @@
 
 /* Fonts */
 h1,h2 {
-	font-family: 'Montserrat','PT Sans Narrow', 'Verdana';
-	color: white;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 200px;
-	height: 50px;
-	margin: 0px;
-	padding: 0px;
-}
-
-h3{
-	font-family: 'Lobster';
-	font-style: italic;
-	margin: 0px;
-	vertical-align: middle;
-	line-height: 40px;
-	position: relative;
-	left: 15px;
+  font-family: 'Montserrat','PT Sans Narrow', 'Verdana';
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Header */
 .header {
-	height: 400px;
-	width: 100%;
-	background: url('https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=db130336e8134fc3f734dbc4318f5c5e');
-	background-size: 100% auto;
-	background-position: 50% 40%;
-	margin: 0px;
-	padding: 0px;
+  height: 400px;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=db130336e8134fc3f734dbc4318f5c5e');
+  background-size: 100% auto;
+  background-position: 50% 40%;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Main */
 .about{
-	height: 325px;
-	background-color: #0099CC;
+  height: 325px;
+  background-color: #2ABCA7;
 }
 
 .about #aboutText{
-	margin: auto;
-	padding-top: 50px;
-	width: 50%;
-	color: white;
-	text-align: center;
-	vertical-align: middle;
+  margin: auto;
+  padding-top: 50px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .main .row {
-	display: inline;
+  display: inline;
 }
 
 .rowContainer {
-	border-bottom: solid #e6e6e8;
-	border-width: 2px;
+  border-bottom: solid #e6e6e8;
+  border-width: 2px;
 }
 
 .main img {
-	display: block;
-	height: 300px;
-	margin: auto;
-  	vertical-align: middle;
+  display: block;
+  height: 300px;
+  margin: auto;
+  vertical-align: middle;
 }
 
 #RISKimg {
-	height: 370px;	
+  height: 370px;  
 }
 
 .main img:hover {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 
 
@@ -172,20 +162,26 @@ select:focus {
 
 
 .tabs .tab-2 {
-  width: 50%;
+  width: 33%;
 }
 .tabs .tab-2 [type="radio"] + div {
-  width: 200%;
-  margin-left: 200%;
+  width: 300%;
+  margin-left: 00%;
 }
 .tabs .tab-2 [type="radio"]:checked + div {
   margin-left: 0;
 }
-.tabs .tab-2:last-child [type="radio"] + div {
+.tabs .tab-2:nth-child(2) [type="radio"] + div {
   margin-left: 100%;
 }
-.tabs .tab-2:last-child [type="radio"]:checked + div {
+.tabs .tab-2:nth-child(2) [type="radio"]:checked + div {
   margin-left: -100%;
+}
+.tabs .tab-2:last-child [type="radio"] + div {
+  margin-left: 200%;
+}
+.tabs .tab-2:last-child [type="radio"]:checked + div {
+  margin-left: -200%;
 }
 
 
@@ -213,7 +209,12 @@ select:focus {
 }
 
 
-
+/* Form */
+.formbody{
+  padding-top:25px;
+  margin-left:10px;
+  margin-right:10px;
+}
 .containerz {
   max-width:600px;
   margin:0 auto;
@@ -221,19 +222,21 @@ select:focus {
   -webkit-border-radius:6px;
   -moz-border-radius:6px;
   border-radius:6px;
-  background-color:#FAFAFA;
+  background-color:grey;
 }
 .headz {
   -webkit-border-radius:6px 6px 0px 0px;
   -moz-border-radius:6px 6px 0px 0px;
   border-radius:6px 6px 0px 0px;
   background-color:#2ABCA7;
-  color:#FAFAFA;
+  color: black;
 }
-h2 {
+h3 {
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  color:#FAFAFA;
   text-align:center;
   padding:18px 0 18px 0;
-  font-size: 1.4em;
+  font-size: 1.7em;
 }
 input {
   margin-bottom:10px;
@@ -277,7 +280,7 @@ input, textarea {
 :-ms-input-placeholder {  
    color: #FAFAFA;  
 }
-button {
+.button {
   margin-top:15px;
   margin-bottom:25px;
   background-color:#2ABCA7;
@@ -293,7 +296,7 @@ button {
   width:30%;
   color:#fff;
 }
-button:hover, .button:hover {
+.button:hover, .button:hover {
   background:#19a08c;
 }
 label.error {
@@ -305,7 +308,7 @@ label.error {
     background-color:#d89c9c;
     width: 80%;
     margin:auto;
-    color: #FAFAFA;
+    color: black;
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
     border-radius:6px;
@@ -339,3 +342,5 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
+
+
