@@ -25,13 +25,13 @@ h1,h2 {
 
 /* Main */
 .about{
-  height: 325px;
+  height: 350px;
   background-color: #2ABCA7;
 }
 
 .about #aboutText{
   margin: auto;
-  padding-top: 50px;
+  padding: 25px;
   width: 50%;
   color: white;
   text-align: center;
